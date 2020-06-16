@@ -34,8 +34,14 @@
         animation__mouseleave="
           property: components.material.material.color; 
           type: color; 
-          to: none; 
+          to: green; 
           startEvents: mouseleave; 
+          dur: 500;" 
+          animation__mouseclick="
+          property: components.material.material.color; 
+          type: color; 
+          to: red; 
+          startEvents: mouseclick; 
           dur: 500;">  
       </a-box>
       <a-box id="myOtherBox" 
