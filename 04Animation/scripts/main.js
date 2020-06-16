@@ -16,8 +16,8 @@ function spin(){
 	myOtherBox.object3D.rotation.y += rotationSpeed / 2;
 	myOtherBox.object3D.rotation.z += rotationSpeed / 4;
 	a = (a + rotationSpeed) % (Math.PI*2);
-	myOtherBox.object3D.position.x = r * Math.cos(a);
-	myOtherBox.object3D.position.y = r * Math.sin(a);
+	myOtherBox.object3D.position.x = x + r * Math.cos(a);
+	myOtherBox.object3D.position.y = y + r * Math.sin(a);
 	console.log(myOtherBox.object3D.rotation.x);
 }
 
