@@ -5,8 +5,8 @@ var rotationSpeed = -0.005;
 var myOtherBox = document.getElementById('myOtherBox');
 var positionx = 0
 
-x = 0  // center
-y = 0   // center
+x =   // center
+y = 5   // center
 r = 5   // radius
 a = 0    // angle (from 0 to Math.PI * 2)
 
